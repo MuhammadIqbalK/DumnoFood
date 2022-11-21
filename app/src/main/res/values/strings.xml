@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">DumnoFood</string>
+    <string name="get_started">Get Started</string>
+    <string name="already">Already have an account?</string>
+    <string name="loginLText"><u>Log in</u></string>
+    <string name="nameinput">Name</string>
+    <string name="emailinput">Email</string>
+    <string name="passwordinput">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="or">- OR -</string>
+    <string name="safe">You are completely safe.</string>
+    <string name="termscon"><u>Read our Terms and Conditions.</u></string>
+    <string name="sign_in_with_google">Sign In with Google</string>
+    <string name="sign_in_with_facebook">Sign In with Facebook</string>
+    <string name="login_to_your_account">Login to your Account</string>
+    <string name="txtsign_up"><u>Sign Up</u></string>
+    <string name="don_t_have_an_account">Don’t have an account ?</string>
+    <string name="forgot_the_password"><u>Forgot the Password?</u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gtstart1">You have two hands one to help yourself, the second to help others.</string>
+    <string name="gtstart2">Giving is not just about making a donation, it is about making a difference.</string>
+    <string name="gtstart3">The community movement could change the way we think about helping each other
+</string>
+
+    <string name="tab_text_1">1</string>
+    <string name="tab_text_2">2</string>
+    <string name="tab_text_3">3</string>
+    <string name="getlocationlong">Untuk menunjukkan kepada anda berapa banyak tetangga yang menunggu untuk berbagi dengan anda</string>
+    <string name="pertama_kita_perlu_tahu_lokasi_anda">Pertama kita perlu tahu lokasi anda</string>
+</resources>
