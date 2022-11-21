@@ -28,4 +28,8 @@
     <string name="tab_text_3">3</string>
     <string name="getlocationlong">Untuk menunjukkan kepada anda berapa banyak tetangga yang menunggu untuk berbagi dengan anda</string>
     <string name="pertama_kita_perlu_tahu_lokasi_anda">Pertama kita perlu tahu lokasi anda</string>
+    <string name="title_activity_nav_main">navMain</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

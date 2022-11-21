@@ -11,4 +11,10 @@ class setLocation1 : AppCompatActivity() {
         supportActionBar?.hide()
         WindowCompat.setDecorFitsSystemWindows(window, false)
     }
+
+
+
+
+
+
 }

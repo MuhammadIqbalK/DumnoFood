@@ -60,15 +60,17 @@
 
     <EditText
         android:id="@+id/editemailin"
-        android:layout_width="291dp"
+        android:layout_width="0dp"
         android:layout_height="40dp"
+        android:layout_marginStart="26dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="26dp"
         android:background="@drawable/formkolom"
         android:ems="15"
         android:hint="@string/emailinput"
-        android:textSize="14sp"
         android:inputType="textEmailAddress"
         android:padding="10dp"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
@@ -76,7 +78,7 @@
 
     <EditText
         android:id="@+id/editpasswin"
-        android:layout_width="291dp"
+        android:layout_width="0dp"
         android:layout_height="40dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/formkolom"
@@ -85,9 +87,8 @@
         android:inputType="textPassword"
         android:padding="10dp"
         android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editemailin"
+        app:layout_constraintStart_toStartOf="@+id/editemailin"
         app:layout_constraintTop_toBottomOf="@+id/editemailin" />
 
     <CheckBox
