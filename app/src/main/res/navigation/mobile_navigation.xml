@@ -12,14 +12,29 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.dumnofood.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
-
-    <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.example.dumnofood.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_takeout"
+        android:name="com.example.dumnofood.ui.takeout.TakeoutFragment"
+        android:label="Takeout"
+        tools:layout="@layout/fragment_takeout" />
+
+    <fragment
+        android:id="@+id/navigation_circle"
+        android:name="com.example.dumnofood.ui.circle.CircleFragment"
+        android:label="Circle"
+        tools:layout="@layout/fragment_circle" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.dumnofood.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+
+
 </navigation>

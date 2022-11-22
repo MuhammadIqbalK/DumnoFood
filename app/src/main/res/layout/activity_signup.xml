@@ -50,22 +50,24 @@
 
     <EditText
         android:id="@+id/editnameup"
-        android:layout_width="291dp"
+        android:layout_width="0dp"
         android:layout_height="40dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="26dp"
         android:background="@drawable/formkolom"
         android:ems="20"
         android:hint="@string/nameinput"
-        android:textSize="14sp"
         android:inputType="textPersonName"
         android:padding="7dp"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvalready" />
 
     <EditText
         android:id="@+id/editemailsup"
-        android:layout_width="291dp"
+        android:layout_width="0dp"
         android:layout_height="40dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/formkolom"
@@ -74,13 +76,13 @@
         android:inputType="textEmailAddress"
         android:padding="7dp"
         android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editnameup"
+        app:layout_constraintStart_toStartOf="@+id/editnameup"
         app:layout_constraintTop_toBottomOf="@+id/editnameup" />
 
     <EditText
         android:id="@+id/editpasswup"
-        android:layout_width="291dp"
+        android:layout_width="0dp"
         android:layout_height="40dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/formkolom"
@@ -89,24 +91,24 @@
         android:inputType="textPassword"
         android:padding="7dp"
         android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editemailsup"
+        app:layout_constraintStart_toStartOf="@+id/editemailsup"
         app:layout_constraintTop_toBottomOf="@+id/editemailsup" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/buttonSignup"
-        android:layout_width="291dp"
+        android:layout_width="0dp"
         android:layout_height="40dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/btn_color2"
         android:ems="18"
         android:fontFamily="@font/poppinsextrabold"
-        android:textSize="11sp"
         android:text="@string/sign_up"
         android:textColor="@color/textputih"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="@+id/editpasswup"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editpasswup"
         app:layout_constraintTop_toBottomOf="@+id/editpasswup" />
 
     <TextView
@@ -125,7 +127,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/buttonSignG2"
-        android:layout_width="291dp"
+        android:layout_width="0dp"
         android:layout_height="44dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/signgoogle_btn"
@@ -134,18 +136,18 @@
         android:fontFamily="@font/poppinsextrabold"
         android:padding="10dp"
         android:text="@string/sign_in_with_google"
-        android:textSize="9sp"
         android:textColor="@color/textform"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="9sp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSignup"
         app:layout_constraintHorizontal_bias="0.478"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/buttonSignup"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/buttonSignFb"
-        android:layout_width="291dp"
+        android:layout_width="0dp"
         android:layout_height="44dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/signfb_btn"
         android:drawableLeft="@drawable/facebook_logo"
         android:ems="18"
@@ -154,9 +156,9 @@
         android:text="@string/sign_in_with_facebook"
         android:textColor="@color/textputih"
         android:textSize="9sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSignG2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonSignG2"
         app:layout_constraintTop_toBottomOf="@+id/buttonSignG2" />
 
     <TextView

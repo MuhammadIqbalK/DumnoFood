@@ -95,31 +95,31 @@
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:buttonTint="@color/orange2"
         android:fontFamily="@font/poppinsregular"
         android:text="Remember me"
         android:textColor="@color/black"
         android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.085"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editpasswin" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/buttonSignin"
-        android:layout_width="291dp"
+        android:layout_width="0dp"
         android:layout_height="40dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/btn_color2"
         android:ems="18"
         android:fontFamily="@font/poppinsextrabold"
         android:text="Sign in"
         android:textColor="@color/textputih"
         android:textSize="11sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editpasswin"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editpasswin"
         app:layout_constraintTop_toBottomOf="@+id/checkBox" />
 
     <TextView

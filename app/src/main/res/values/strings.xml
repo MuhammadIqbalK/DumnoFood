@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">DumnoFood</string>
     <string name="get_started">Get Started</string>
-    <string name="already">Already have an account?</string>
+    <string name="already">Sudah memiliki akun ?</string>
     <string name="loginLText"><u>Log in</u></string>
     <string name="nameinput">Name</string>
     <string name="emailinput">Email</string>
@@ -14,7 +14,7 @@
     <string name="sign_in_with_facebook">Sign In with Facebook</string>
     <string name="login_to_your_account">Login to your Account</string>
     <string name="txtsign_up"><u>Sign Up</u></string>
-    <string name="don_t_have_an_account">Don’t have an account ?</string>
+    <string name="don_t_have_an_account">Belum punya akun ?</string>
     <string name="forgot_the_password"><u>Forgot the Password?</u></string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
