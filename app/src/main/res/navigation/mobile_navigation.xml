@@ -32,7 +32,7 @@
     <fragment
         android:id="@+id/navigation_profile"
         android:name="com.example.dumnofood.ui.profile.ProfileFragment"
-        android:label="Profile"
+        android:label="Mine"
         tools:layout="@layout/fragment_profile" />
 
 
