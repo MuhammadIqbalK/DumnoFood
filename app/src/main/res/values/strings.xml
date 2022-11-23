@@ -32,4 +32,14 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <!--    headings-->
+    <string name="head_1">Mirna</string>
+    <string name="head_2">Joko</string>
+    <string name="head_3">Anwar</string>
+
+    <!--deskitem-->
+    <string name="item_1">deskrpsi 1</string>
+    <string name="item_2">deskripsi 2</string>
+    <string name="item_3">deskripsi 3</string>
 </resources>
