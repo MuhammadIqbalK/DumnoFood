@@ -41,7 +41,6 @@ class start3Fragment : Fragment() {
         // Inflate the layout for this fragment
         val fragment = inflater.inflate(R.layout.fragment_start3, container, false)
         val toRegispage = fragment.findViewById<Button>(R.id.buttongtstart)
-
         toRegispage.setOnClickListener{
             val intent = Intent(getActivity(), signUpActivity::class.java)
             startActivity(intent)
