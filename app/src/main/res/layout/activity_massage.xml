@@ -4,43 +4,176 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.circle.MassageActivity">
+        tools:context=".ui.circle.MassageActivity">
 
-    <androidx.cardview.widget.CardView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/card_home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp">
+        >
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/img_fotoprofilchat"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"
             android:contentDescription="@string/foto_profil"
             android:scaleType="centerCrop"
-            android:src="@drawable/dimsum" />
+            android:src="@drawable/jhon" />
+
+        <TextView
+            android:id="@+id/tv_item_userchat"
+            android:layout_width="200dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="43dp"
+            tools:text="@string/name_chat" />
 
         <TextView
             android:id="@+id/tv_item_detaichat"
             android:layout_width="250dp"
             android:layout_height="50dp"
             android:layout_marginStart="100dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="15dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppinsregular"
+            android:maxLines="3"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="25dp"
+            tools:text="@string/detail_chat"
+            tools:visibility="visible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/card_home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_fotoprofilchat2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="15dp"
             android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:contentDescription="@string/foto_profil"
+            android:scaleType="centerCrop"
+            android:src="@drawable/jane" />
+
+        <TextView
+            android:id="@+id/tv_item_userchat2"
+            android:layout_width="200dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="15dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="43dp"
+            tools:text="@string/name_chat2" />
+
+        <TextView
+            android:id="@+id/tv_item_detaichat2"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="45dp"
             android:layout_marginBottom="15dp"
             android:ellipsize="end"
             android:maxLines="3"
-            android:textSize="16sp"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="@color/black"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="85dp"
             tools:layout_editor_absoluteY="25dp"
-            tools:text="@string/circle_caption"
+            tools:text="@string/detail_chat2"
             tools:visibility="visible" />
+    </RelativeLayout>
 
-    </androidx.cardview.widget.CardView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/card_home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_fotoprofilchat3"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:contentDescription="@string/foto_profil"
+            android:scaleType="centerCrop"
+            android:src="@drawable/jojo" />
+
+        <TextView
+            android:id="@+id/tv_item_userchat3"
+            android:layout_width="200dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="15dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="43dp"
+            tools:text="@string/name_chat3" />
+
+        <TextView
+            android:id="@+id/tv_item_detaichat3"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="15dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppinsregular"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="25dp"
+            tools:text="@string/detail_chat3"
+            tools:visibility="visible" />
+    </RelativeLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
