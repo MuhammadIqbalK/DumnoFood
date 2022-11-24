@@ -42,4 +42,20 @@
     <string name="item_1">deskrpsi 1</string>
     <string name="item_2">deskripsi 2</string>
     <string name="item_3">deskripsi 3</string>
+
+    <!--circleitem-->
+    <string name="circle_name">name @username</string>
+    <string name="circle_caption">keripik tortilla buatan sendiri,pesan saya jika anda ingin mengambilnya</string>
+    <string name="circle_caption2">Saya baru saja menambahkan buah yang saya dapat dari DumnoFood ..terima kasih!senang telah menemukan aplikasi ini 😊</string>
+    <string name="like">Like</string>
+    <string name="comment">Komentar</string>
+    <string name="share">Bagikan</string>
+    <string name="foto_profil">Foto Profil</string>
+    <string name="foto_post">Foto Postingan</string>
+
+    <!--notifitem-->
+    <string name="notif1">Pesanan Dimsum anda sedang dikirim!Cek pengiriman anda disini!</string>
+    <string name="notif2">Seseorang menginginkan Dimsum yang anda bagikan! </string>
+    <string name="notif3">Jane Doe, John Doe, dan 2 orang lainnya mengomentari post anda!</string>
+    <string name="notif4">Jane Doe, John Doe, dan 5 orang lainnya menyukai post anda!</string>
 </resources>
