@@ -4,10 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".ui.home.HomeFragment">
 
     <TextView
@@ -283,13 +284,26 @@
         app:layout_constraintTop_toBottomOf="@+id/lihathemat" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="344dp"
+        android:id="@+id/appCompatButton2"
+        android:layout_width="320dp"
         android:layout_height="175dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="1dp"
         android:background="@drawable/donatefoodhimg"
         app:layout_constraintEnd_toEndOf="@+id/imageView9"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageView7"
         app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/button"
+        android:layout_width="271dp"
+        android:layout_height="103dp"
+        android:background="@drawable/card_home"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatButton2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -92,15 +92,11 @@ class HomeFragment : Fragment() {
             R.drawable.foodimg1,
             R.drawable.foodimg2
 
-
-
         )
         heading = arrayOf(
             "Mirna",
             "risa",
             "ina"
-
-
 
             )
         desk = arrayOf(

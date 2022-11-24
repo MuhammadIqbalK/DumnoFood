@@ -70,4 +70,6 @@
     <string name="notif4">Jane Doe, John Doe, dan 5 orang lainnya menyukai post anda!</string>
     <string name="edit_profile">Edit Profile</string>
     <string name="jane_doe">Jane Doe</string>
+    <string name="ketentuan_layanan_kebijakan_privasi"><![CDATA[Ketentuan Layanan & Kebijakan Privasi]]></string>
+    <string name="title_activity_setlocation2">setlocation2</string>
 </resources>
