@@ -39,10 +39,8 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
-        _binding = FragmentHomeBinding.inflate(inflater, container, false)
-        val root: View = binding.root
-
         (activity as AppCompatActivity).supportActionBar?.hide()
+
         // button donatefood //
 
         val bind = FragmentHomeBinding.inflate(layoutInflater)
@@ -50,6 +48,10 @@ class HomeFragment : Fragment() {
             val intent = Intent(this@HomeFragment.requireContext(), DonateFoodActivity::class.java)
             startActivity(intent)
         }
+        return bind.root
+
+        _binding = FragmentHomeBinding.inflate(inflater, container, false)
+        val root: View = binding.root
 
 
         return root
