@@ -50,8 +50,18 @@
     <string name="like">Like</string>
     <string name="comment">Komentar</string>
     <string name="share">Bagikan</string>
+    <string name="like2">12 Suka</string>
+    <string name="comment2">5 Komentar</string>
     <string name="foto_profil">Foto Profil</string>
     <string name="foto_post">Foto Postingan</string>
+
+    <!--massageitem-->
+    <string name="name_chat">Jhon Doe</string>
+    <string name="name_chat2">Jane Doe</string>
+    <string name="name_chat3">Jojo </string>
+    <string name="detail_chat">Halo namaku Jhon, aku tinggal di Jln. Meraki Gg.2, salam kenal.</string>
+    <string name="detail_chat2">okey jhon nanti aku kabarin kalo udah sampek</string>
+    <string name="detail_chat3">Terima kasih atas makannanya ;)</string>
 
     <!--notifitem-->
     <string name="notif1">Pesanan Dimsum anda sedang dikirim!Cek pengiriman anda disini!</string>

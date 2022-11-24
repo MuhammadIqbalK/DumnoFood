@@ -1,222 +1,323 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:card_view="http://schemas.android.com/apk/res-auto"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/abu"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:background="@color/abu">
 
-
-    <androidx.cardview.widget.CardView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    <RelativeLayout
+    android:id="@+id/relativeLayout5"
+    android:layout_width="372dp"
+    android:layout_height="394dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="20dp"
     android:background="@color/white"
+    card_view:layout_constraintEnd_toEndOf="parent"
+    card_view:layout_constraintStart_toStartOf="parent"
+    card_view:layout_constraintTop_toTopOf="parent"
     tools:ignore="MissingConstraints">
 
-        <ImageView
-            android:id="@+id/img_item_photo"
-            android:layout_width="55dp"
-            android:layout_height="55dp"
-            android:contentDescription="@string/foto_profil"
-            android:scaleType="centerCrop"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="25dp"
-            tools:src="@tools:sample/avatars" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profilephoto1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/jhon" />
 
         <TextView
-            android:id="@+id/tv_item_username"
-            android:layout_width="200dp"
-            android:layout_height="18dp"
-            android:textSize="16sp"
-            android:textStyle="bold"
+            android:id="@+id/tv_item_notif4"
+            android:layout_width="266dp"
+            android:layout_height="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_toEndOf="@id/profilephoto1"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppinsbold"
+            android:maxLines="3"
+            android:text="@string/circle_name"
+            android:textColor="@color/black"
+            android:textSize="12sp"
             tools:layout_editor_absoluteX="85dp"
-            tools:layout_editor_absoluteY="43dp"
-            tools:text="@string/circle_name" />
+            tools:layout_editor_absoluteY="25dp">
+
+        </TextView>
 
         <TextView
             android:id="@+id/tv_item_caption"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            android:layout_width="341dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/profilephoto1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
             android:ellipsize="end"
+            android:fontFamily="@font/poppinsmedium"
             android:maxLines="3"
-            android:textColor="#455A64"
-            android:textSize="16sp"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="88dp"
-            tools:text="@string/circle_caption" />
+            android:text="@string/circle_caption"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="25dp">
+
+        </TextView>
 
         <ImageView
-            android:id="@+id/img_item_post"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:contentDescription="@string/foto_post"
-            android:scaleType="centerCrop"
-            android:src="@drawable/start2img"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="146dp" />
+            android:id="@+id/postingan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="115dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="33dp"
+            android:src="@drawable/keripik"
+            android:contentDescription="@string/foto_post" />
 
         <ImageView
-            android:id="@+id/iconSuka"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:contentDescription="@string/like"
+            android:id="@+id/ic_suka"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="359dp"
+            android:layout_marginBottom="10dp"
             android:src="@drawable/ic_suka"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="352dp" />
+            android:contentDescription="@string/like" />
 
         <ImageView
-            android:id="@+id/iconKomentar"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:id="@+id/ic_komentar"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="111dp"
+            android:layout_marginTop="359dp"
+            android:layout_marginBottom="10dp"
             android:contentDescription="@string/comment"
-            card_view:srcCompat="@drawable/ic_komentar"
-            tools:layout_editor_absoluteX="115dp"
-            tools:layout_editor_absoluteY="352dp" />
+            android:src="@drawable/ic_komentar" />
 
         <ImageView
-            android:id="@+id/iconBagikan"
-            android:layout_width="27dp"
-            android:layout_height="21dp"
-            android:contentDescription="@string/share"
-            card_view:srcCompat="@drawable/ic_share"
-            tools:layout_editor_absoluteX="350dp"
-            tools:layout_editor_absoluteY="356dp" />
+            android:id="@+id/ic_bagikan"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="359dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_share"
+            android:contentDescription="@string/share" />
 
         <TextView
-            android:id="@+id/comment"
+            android:id="@+id/tv_item_suka"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="160dp"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            card_view:layout_constraintEnd_toEndOf="parent"
-            tools:layout_editor_absoluteY="352dp"
-            tools:text="@string/comment" />
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@id/ic_suka"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppinsmedium"
+            android:maxLines="3"
+            android:text="@string/like2"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="25dp" />
 
         <TextView
-            android:id="@+id/like"
+            android:id="@+id/tv_item_komen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="296dp"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            card_view:layout_constraintEnd_toEndOf="parent"
-            tools:layout_editor_absoluteY="352dp"
-            tools:text="@string/like" />
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@id/ic_komentar"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppinsmedium"
+            android:maxLines="3"
+            android:text="@string/comment2"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="25dp" />
+    </RelativeLayout>
 
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+    <RelativeLayout
+        android:id="@+id/relativeLayout6"
+        android:layout_width="372dp"
+        android:layout_height="394dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="20dp"
         android:background="@color/white"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="387dp"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintHorizontal_bias="0.0"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints">
 
-        <ImageView
-            android:id="@+id/img_item_photo2"
-            android:layout_width="55dp"
-            android:layout_height="55dp"
-            android:contentDescription="@string/foto_profil"
-            android:scaleType="centerCrop"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="25dp"
-            tools:src="@tools:sample/avatars" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profilephoto2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/jhon" />
 
         <TextView
-            android:id="@+id/tv_item_username2"
-            android:layout_width="200dp"
-            android:layout_height="18dp"
-            android:textSize="16sp"
-            android:textStyle="bold"
+            android:id="@+id/tv_item_circlename"
+            android:layout_width="266dp"
+            android:layout_height="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_toEndOf="@id/profilephoto2"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppinsbold"
+            android:maxLines="3"
+            android:text="@string/circle_name"
+            android:textColor="@color/black"
+            android:textSize="12sp"
             tools:layout_editor_absoluteX="85dp"
-            tools:layout_editor_absoluteY="43dp"
-            tools:text="@string/circle_name" />
+            tools:layout_editor_absoluteY="25dp">
+
+        </TextView>
 
         <TextView
             android:id="@+id/tv_item_caption2"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            android:layout_width="341dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/profilephoto2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
             android:ellipsize="end"
+            android:fontFamily="@font/poppinsmedium"
             android:maxLines="3"
-            android:textColor="#795548"
-            android:textSize="16sp"
-            tools:ignore="MissingConstraints,TextContrastCheck"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="88dp"
-            tools:text="@string/circle_caption" />
+            android:text="@string/circle_caption2"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="25dp">
+
+        </TextView>
 
         <ImageView
-            android:id="@+id/img_item_post2"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            android:id="@+id/postingan2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="115dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="33dp"
             android:contentDescription="@string/foto_post"
-            android:scaleType="centerCrop"
-            android:src="@drawable/start2img"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="146dp" />
+            android:src="@drawable/strawbery" />
 
         <ImageView
-            android:id="@+id/iconSuka2"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:id="@+id/ic_suka2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="359dp"
+            android:layout_marginBottom="10dp"
             android:contentDescription="@string/like"
-            card_view:srcCompat="@drawable/ic_suka"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="357dp" />
+            android:src="@drawable/ic_suka" />
 
         <ImageView
-            android:id="@+id/iconKomentar2"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:id="@+id/ic_komentar2"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="111dp"
+            android:layout_marginTop="359dp"
+            android:layout_marginBottom="10dp"
             android:contentDescription="@string/comment"
-            card_view:srcCompat="@id/ic_suka"
-            tools:layout_editor_absoluteX="114dp"
-            tools:layout_editor_absoluteY="357dp" />
+            android:src="@drawable/ic_komentar" />
 
         <ImageView
-            android:id="@+id/iconBagikan2"
-            android:layout_width="27dp"
-            android:layout_height="21dp"
+            android:id="@+id/ic_bagikan2"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="359dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="10dp"
             android:contentDescription="@string/share"
-            card_view:srcCompat="@drawable/ic_share"
-            tools:layout_editor_absoluteX="341dp"
-            tools:layout_editor_absoluteY="356dp" />
+            android:src="@drawable/ic_share" />
 
         <TextView
-            android:id="@+id/comment2"
+            android:id="@+id/tv_item_suka2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="152dp"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            card_view:layout_constraintEnd_toEndOf="parent"
-            tools:ignore="MissingConstraints,TextContrastCheck"
-            tools:layout_editor_absoluteY="356dp"
-            tools:text="@string/comment" />
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@id/ic_suka2"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppinsmedium"
+            android:maxLines="3"
+            android:text="@string/like2"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="25dp" />
 
         <TextView
-            android:id="@+id/like2"
+            android:id="@+id/tv_item_komen2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="292dp"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            card_view:layout_constraintEnd_toEndOf="parent"
-            tools:layout_editor_absoluteY="356dp"
-            tools:text="@string/like" />
-
-    </androidx.cardview.widget.CardView>
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@id/ic_komentar2"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppinsmedium"
+            android:maxLines="3"
+            android:text="@string/comment2"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="25dp" />
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

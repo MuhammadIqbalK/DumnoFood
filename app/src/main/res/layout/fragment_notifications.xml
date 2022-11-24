@@ -21,7 +21,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints">
+        >
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/img_item_photo"
@@ -46,12 +46,10 @@
             android:ellipsize="end"
             android:fontFamily="@font/poppinsmedium"
             android:maxLines="3"
-            android:text="@string/circle_caption"
+            android:text="@string/notif1"
             android:textColor="@color/black"
-            android:textSize="9sp"
-            tools:ignore="MissingConstraints"
+            android:textSize="11sp"
             tools:layout_editor_absoluteX="85dp"
-
             tools:layout_editor_absoluteY="25dp" />
 
     </RelativeLayout>
@@ -84,19 +82,20 @@
 
         <TextView
             android:id="@+id/tv_item_notif2"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_width="240dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="14dp"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"
             android:layout_toEndOf="@id/img_item_photo2"
             android:ellipsize="end"
+            android:fontFamily="@font/poppinsmedium"
             android:maxLines="3"
-            android:textSize="16sp"
-            tools:ignore="MissingConstraints"
+            android:text="@string/notif2"
+            android:textColor="@color/black"
+            android:textSize="11sp"
             tools:layout_editor_absoluteX="85dp"
-            tools:layout_editor_absoluteY="25dp"
-            tools:text="@string/notif2" />
+            tools:layout_editor_absoluteY="25dp" />
 
     </RelativeLayout>
 
@@ -128,19 +127,21 @@
 
         <TextView
             android:id="@+id/tv_item_notif3"
-            android:layout_width="281dp"
-            android:layout_height="48dp"
-            android:layout_marginStart="-4dp"
+            android:layout_width="240dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="14dp"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"
             android:layout_toEndOf="@id/img_item_photo3"
             android:ellipsize="end"
+            android:fontFamily="@font/poppinsmedium"
             android:maxLines="3"
-            android:textSize="16sp"
-            tools:ignore="MissingConstraints"
+            android:text="@string/notif3"
+            android:textColor="@color/black"
+            android:textSize="11sp"
             tools:layout_editor_absoluteX="85dp"
-            tools:layout_editor_absoluteY="25dp"
-            tools:text="@string/notif3" />
+            tools:layout_editor_absoluteY="25dp" />
+
 
     </RelativeLayout>
 
@@ -171,19 +172,20 @@
 
         <TextView
             android:id="@+id/tv_item_notif4"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_width="240dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="14dp"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"
             android:layout_toEndOf="@id/img_item_photo4"
             android:ellipsize="end"
+            android:fontFamily="@font/poppinsmedium"
             android:maxLines="3"
-            android:textSize="16sp"
-            tools:ignore="MissingConstraints"
+            android:text="@string/notif4"
+            android:textColor="@color/black"
+            android:textSize="11sp"
             tools:layout_editor_absoluteX="85dp"
-            tools:layout_editor_absoluteY="25dp"
-            tools:text="@string/notif4" />
+            tools:layout_editor_absoluteY="25dp" />
 
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
