@@ -28,18 +28,6 @@
             app:layout_constraintVertical_bias="0.613" />
 
         <TextView
-            android:id="@+id/textView11"
-            android:layout_width="37dp"
-            android:layout_height="19dp"
-            android:layout_marginStart="156dp"
-            android:text="103"
-            android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/pic"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.93" />
-
-        <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -50,7 +38,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imageView4"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.679" />
+            app:layout_constraintVertical_bias="0.601" />
 
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/pic"
@@ -85,7 +73,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/pic"
             app:layout_constraintTop_toBottomOf="@+id/textView8"
-            app:layout_constraintVertical_bias="0.206" />
+            app:layout_constraintVertical_bias="0.071" />
 
         <ImageView
             android:id="@+id/imageView6"
@@ -99,6 +87,16 @@
             app:layout_constraintVertical_bias="0.268" />
 
         <ImageView
+            android:layout_width="17dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="128dp"
+            android:src="@drawable/ic_baseline_remove_red_eye_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/pic"
+            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            app:layout_constraintVertical_bias="0.87" />
+
+        <ImageView
             android:id="@+id/imageView5"
             android:layout_width="17dp"
             android:layout_height="wrap_content"
@@ -107,17 +105,19 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/pic"
             app:layout_constraintTop_toBottomOf="@+id/textView8"
-            app:layout_constraintVertical_bias="0.964" />
+            app:layout_constraintVertical_bias="0.87" />
 
-        <ImageView
-            android:layout_width="17dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="128dp"
-            android:src="@drawable/ic_baseline_remove_red_eye_24"
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="37dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="156dp"
+            android:text="103"
+            android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/pic"
-            app:layout_constraintTop_toBottomOf="@+id/textView8"
-            app:layout_constraintVertical_bias="0.964" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.881" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -129,7 +129,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imageView5"
             app:layout_constraintTop_toBottomOf="@+id/textView"
-            app:layout_constraintVertical_bias="0.833" />
+            app:layout_constraintVertical_bias="0.588" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
