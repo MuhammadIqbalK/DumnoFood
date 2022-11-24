@@ -58,4 +58,6 @@
     <string name="notif2">Seseorang menginginkan Dimsum yang anda bagikan! </string>
     <string name="notif3">Jane Doe, John Doe, dan 2 orang lainnya mengomentari post anda!</string>
     <string name="notif4">Jane Doe, John Doe, dan 5 orang lainnya menyukai post anda!</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="jane_doe">Jane Doe</string>
 </resources>
