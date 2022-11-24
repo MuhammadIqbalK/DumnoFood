@@ -19,7 +19,6 @@
             android:layout_height="55dp"
             android:contentDescription="@string/foto_profil"
             android:scaleType="centerCrop"
-            tools:ignore="MissingConstraints,ImageContrastCheck"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="25dp"
             tools:src="@tools:sample/avatars" />
@@ -30,7 +29,6 @@
             android:layout_height="18dp"
             android:textSize="16sp"
             android:textStyle="bold"
-            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="85dp"
             tools:layout_editor_absoluteY="43dp"
             tools:text="@string/circle_name" />
@@ -45,7 +43,6 @@
             android:maxLines="3"
             android:textColor="#455A64"
             android:textSize="16sp"
-            tools:ignore="MissingConstraints,TextContrastCheck"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="88dp"
             tools:text="@string/circle_caption" />
@@ -59,7 +56,6 @@
             android:contentDescription="@string/foto_post"
             android:scaleType="centerCrop"
             android:src="@drawable/start2img"
-            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="146dp" />
 
@@ -68,7 +64,7 @@
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:contentDescription="@string/like"
-            card_view:srcCompat="@drawable/ic_suka"
+            android:src="@drawable/ic_suka"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="352dp" />
@@ -79,7 +75,6 @@
             android:layout_height="25dp"
             android:contentDescription="@string/comment"
             card_view:srcCompat="@drawable/ic_komentar"
-            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="115dp"
             tools:layout_editor_absoluteY="352dp" />
 
@@ -89,7 +84,6 @@
             android:layout_height="21dp"
             android:contentDescription="@string/share"
             card_view:srcCompat="@drawable/ic_share"
-            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="350dp"
             tools:layout_editor_absoluteY="356dp" />
 
@@ -101,7 +95,6 @@
             android:textSize="16sp"
             android:textStyle="bold"
             card_view:layout_constraintEnd_toEndOf="parent"
-            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteY="352dp"
             tools:text="@string/comment" />
 
@@ -113,7 +106,6 @@
             android:textSize="16sp"
             android:textStyle="bold"
             card_view:layout_constraintEnd_toEndOf="parent"
-            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteY="352dp"
             tools:text="@string/like" />
 
@@ -123,9 +115,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white"
-        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="387dp">
+        tools:layout_editor_absoluteY="387dp"
+        tools:ignore="MissingConstraints">
 
         <ImageView
             android:id="@+id/img_item_photo2"
@@ -133,7 +125,6 @@
             android:layout_height="55dp"
             android:contentDescription="@string/foto_profil"
             android:scaleType="centerCrop"
-            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="25dp"
             tools:src="@tools:sample/avatars" />
@@ -144,7 +135,6 @@
             android:layout_height="18dp"
             android:textSize="16sp"
             android:textStyle="bold"
-            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="85dp"
             tools:layout_editor_absoluteY="43dp"
             tools:text="@string/circle_name" />
@@ -173,7 +163,6 @@
             android:contentDescription="@string/foto_post"
             android:scaleType="centerCrop"
             android:src="@drawable/start2img"
-            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="146dp" />
 
@@ -183,7 +172,6 @@
             android:layout_height="25dp"
             android:contentDescription="@string/like"
             card_view:srcCompat="@drawable/ic_suka"
-            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="357dp" />
 
@@ -193,7 +181,6 @@
             android:layout_height="25dp"
             android:contentDescription="@string/comment"
             card_view:srcCompat="@id/ic_suka"
-            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="114dp"
             tools:layout_editor_absoluteY="357dp" />
 
@@ -203,7 +190,6 @@
             android:layout_height="21dp"
             android:contentDescription="@string/share"
             card_view:srcCompat="@drawable/ic_share"
-            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="341dp"
             tools:layout_editor_absoluteY="356dp" />
 
@@ -227,7 +213,6 @@
             android:textSize="16sp"
             android:textStyle="bold"
             card_view:layout_constraintEnd_toEndOf="parent"
-            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteY="356dp"
             tools:text="@string/like" />
 

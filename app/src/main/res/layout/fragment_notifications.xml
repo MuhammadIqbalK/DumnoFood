@@ -1,65 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.notifications.NotificationsFragment">
 
+
     <RelativeLayout
+        android:id="@+id/relativeLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="26dp"
         android:background="@drawable/card_home"
-        android:padding="6dp"
         android:foregroundGravity="top"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="26dp">
+        android:padding="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
 
-            <de.hdodenhof.circleimageview.CircleImageView
+        <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/img_item_photo"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/dimsum"
             android:layout_marginStart="15dp"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"
             android:contentDescription="@string/foto_profil"
-            android:scaleType="centerCrop"/>
+            android:scaleType="centerCrop"
+            android:src="@drawable/dimsum" />
 
 
-
-            <TextView
+        <TextView
             android:id="@+id/tv_item_notif1"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
+            android:layout_width="240dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="14dp"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"
-            android:ellipsize="end"
-            android:maxLines="3"
-            android:textSize="16sp"
-            tools:ignore="MissingConstraints"
             android:layout_toEndOf="@id/img_item_photo"
-            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppinsmedium"
+            android:maxLines="3"
+            android:text="@string/circle_caption"
+            android:textColor="@color/black"
+            android:textSize="9sp"
+            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="85dp"
-            tools:layout_editor_absoluteY="25dp"
-            tools:text="@string/circle_caption" />
+
+            tools:layout_editor_absoluteY="25dp" />
 
     </RelativeLayout>
 
-
     <RelativeLayout
-        android:layout_width="match_parent"
+        android:id="@+id/relativeLayout3"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginTop="15dp"
         android:background="@drawable/card_home"
         android:padding="6dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="138dp">
+        app:layout_constraintEnd_toEndOf="@+id/relativeLayout2"
+        app:layout_constraintStart_toStartOf="@+id/relativeLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2"
+        tools:ignore="MissingConstraints">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/img_item_photo2"
@@ -73,8 +80,7 @@
             android:src="@drawable/dimsum"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="25dp"
-             />
+            tools:layout_editor_absoluteY="25dp" />
 
         <TextView
             android:id="@+id/tv_item_notif2"
@@ -95,15 +101,16 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
+        android:id="@+id/relativeLayout4"
+        android:layout_width="364dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="15dp"
         android:background="@drawable/card_home"
         android:padding="6dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="253dp">
+        app:layout_constraintEnd_toEndOf="@+id/relativeLayout3"
+        app:layout_constraintStart_toStartOf="@+id/relativeLayout3"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout3"
+        tools:ignore="MissingConstraints">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/img_item_photo3"
@@ -117,14 +124,13 @@
             android:src="@drawable/tortila"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="25dp"
-             />
+            tools:layout_editor_absoluteY="25dp" />
 
         <TextView
             android:id="@+id/tv_item_notif3"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_width="281dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="-4dp"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"
             android:layout_toEndOf="@id/img_item_photo3"
@@ -139,15 +145,15 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginTop="15dp"
         android:background="@drawable/card_home"
         android:padding="6dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="368dp">
+        app:layout_constraintEnd_toEndOf="@+id/relativeLayout4"
+        app:layout_constraintStart_toStartOf="@+id/relativeLayout4"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout4"
+        tools:ignore="MissingConstraints">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/img_item_photo4"
