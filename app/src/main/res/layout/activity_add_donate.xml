@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".add_donate">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detail Makanan"
+            android:textColor="@color/orange1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="210dp">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:hint="Nama Makanan"
+            android:textColorHint="@color/abu"
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/formkolom">
+        </EditText>
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:hint="Deskripsi"
+            android:textColorHint="@color/abu"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="310dp"
+            android:background="@drawable/formkolom">
+        </EditText>
+
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="150dp"
+                app:cardCornerRadius="8dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35dp"
+                android:layout_gravity="center"
+                android:background="@drawable/formkolom2">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="85dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/addcamera">
+            </ImageView>
+
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radiobutton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="360dp"
+                android:text="Halal"
+                android:textColor="@color/orange1"
+                >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/radiobutton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Non Halal"
+                android:layout_marginTop="360dp"
+                android:textColor="@color/orange1">
+
+            </RadioButton>
+        </RadioGroup>
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:hint="Jumlah"
+            android:textColorHint="@color/abu"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="420dp"
+            android:background="@drawable/formkolom">
+        </EditText>
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:hint="Tanggal Kedaluarsa"
+            android:textColorHint="@color/abu"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="480dp"
+            android:background="@drawable/formkolom">
+        </EditText>
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:hint="Catatan"
+            android:textColorHint="@color/abu"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="540dp"
+            android:background="@drawable/formkolom">
+        </EditText>
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:hint="Alamat"
+            android:textColorHint="@color/abu"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/formkolom">
+        </EditText>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonKirim"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="660dp"
+            android:background="@drawable/btn_color2"
+            android:text="Kirim"
+            android:textColor="@color/textputih"
+            android:textSize="11sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="20dp"
+             />
+
+    </RelativeLayout>
+
+</ScrollView>
