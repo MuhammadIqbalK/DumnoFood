@@ -42,6 +42,14 @@
     <string name="item_1">deskrpsi 1</string>
     <string name="item_2">deskripsi 2</string>
     <string name="item_3">deskripsi 3</string>
+    
+    <!--savebefore-->
+    <string name="dunkin">Dunkin Donut</string>
+    <string name="added">added 7 minutes ago</string>
+    <string name="pay">Pembayaran</string>
+    <string name="itemtotal">Item Total                                                    Rp.8.000</string>
+    <string name="ongkir">Biaya Pengiriman                                      Rp.0.</string>
+    <string name="totalpay">Total                                                              Rp.8.000</string>
 
     <!--circleitem-->
     <string name="circle_name">name @username</string>
