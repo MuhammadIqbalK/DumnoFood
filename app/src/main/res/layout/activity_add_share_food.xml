@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".add_donate">
+    tools:context=".AddShareFood">
 
 
     <RelativeLayout
@@ -53,23 +53,23 @@
         </EditText>
 
 
-            <ImageView
-                android:layout_width="190dp"
-                android:layout_height="150dp"
-                app:cardCornerRadius="8dp"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="35dp"
-                android:layout_gravity="center"
-                android:background="@drawable/formkolom2">
-            </ImageView>
+        <ImageView
+            android:layout_width="190dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="8dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:layout_gravity="center"
+            android:background="@drawable/formkolom2">
+        </ImageView>
 
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="85dp"
-                android:layout_centerHorizontal="true"
-                android:background="@drawable/addcamera">
-            </ImageView>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="85dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/addcamera">
+        </ImageView>
 
 
 
@@ -132,7 +132,7 @@
         <EditText
             android:layout_width="380dp"
             android:layout_height="40dp"
-            android:hint="Catatan"
+            android:hint="Tinggalkan Pesan"
             android:textColorHint="@color/abu"
             android:textColor="@color/black"
             android:textSize="12dp"
@@ -146,7 +146,7 @@
         <EditText
             android:layout_width="380dp"
             android:layout_height="40dp"
-            android:hint="Alamat anda"
+            android:hint="Lokasi anda"
             android:textColorHint="@color/abu"
             android:textColor="@color/black"
             android:textSize="12dp"
@@ -170,7 +170,7 @@
             android:layout_marginRight="15dp"
             android:layout_marginBottom="20dp"
             android:elevation="20dp"
-             />
+            />
 
     </RelativeLayout>
 
