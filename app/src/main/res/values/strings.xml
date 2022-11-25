@@ -54,13 +54,15 @@
     <string name="comment2">5 Komentar</string>
     <string name="foto_profil">Foto Profil</string>
     <string name="foto_post">Foto Postingan</string>
+    <string name="frame_foto">Frame Foto</string>
+    <string name="kamera">Kamera</string>
 
     <!--massageitem-->
     <string name="name_chat">Jhon Doe</string>
     <string name="name_chat2">Jane Doe</string>
     <string name="name_chat3">Jojo </string>
     <string name="detail_chat">Halo namaku Jhon, aku tinggal di Jln. Meraki Gg.2, salam kenal.</string>
-    <string name="detail_chat2">okey jhon nanti aku kabarin kalo udah sampek</string>
+    <string name="detail_chat2">Halo jhon salam kenal juga, namaku Jane wahh ternyata rumah kita deket ya, aku tinggal di Gg. 5.</string>
     <string name="detail_chat3">Terima kasih atas makannanya ;)</string>
 
     <!--notifitem-->
@@ -72,4 +74,8 @@
     <string name="jane_doe">Jane Doe</string>
     <string name="ketentuan_layanan_kebijakan_privasi"><![CDATA[Ketentuan Layanan & Kebijakan Privasi]]></string>
     <string name="title_activity_setlocation2">setlocation2</string>
+    <string name="caption">Caption</string>
+    <string name="tambahkan_lokasi">Tambahkan Lokasi</string>
+    <string name="tandai_seseorang">Tandai Seseorang</string>
+    <string name="post_to_circle">Post to circle</string>
 </resources>

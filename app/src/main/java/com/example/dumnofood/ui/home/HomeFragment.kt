@@ -16,7 +16,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.dumnofood.R
 import com.example.dumnofood.databinding.FragmentHomeBinding
 import com.example.dumnofood.DonateFoodActivity
-import com.example.dumnofood.AddShareFood
 
 class HomeFragment : Fragment() {
 
@@ -49,18 +48,7 @@ class HomeFragment : Fragment() {
             val intent = Intent(this@HomeFragment.requireContext(), DonateFoodActivity::class.java)
             startActivity(intent)
         }
-
-        bind.btnSharefood.setOnClickListener {
-            val intent = Intent(this@HomeFragment.requireContext(), AddShareFood::class.java)
-            startActivity(intent)
-        }
-
         return bind.root
-
-
-
-
-
 
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
